@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador Challenge One</title>
     <link rel="shortcut icon" href="images/Favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -17,29 +17,28 @@
     <header>
         <img class="logo" src="images/Logo.svg" alt="logo">
     </header>
-    
+
     <div class="container">
-    
         <video id="video_background" src="video/video.mp4" autoplay="true" muted="true" loop="true"></video>
     
         <div class="encriptar">
             <textarea class="texto" name="texto" id="texto" cols="30" rows="10"
                 placeholder="Digita el Texto aquí"></textarea>
+
             <div class="terminos">
                 <img class="alert" src="images/alert.png" alt="Alert">
                 <p>Solo letras minúsculas y sin acentos.</p>
-            </div>
-            
+            </div>           
             
             <div class="botones">
-                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
-                <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()" />
+                <button class="btn-encriptar" type="button" value="encriptar" onclick="encriptar()">Encriptar</button>
+                <input type="button" class="btn-desencriptar" value="desencriptar" onclick="desencriptar()"/>
             </div>
-    
-    
         </div>
+
+
         <div class="encriptado">
-            <img src="images/muñeco.png" alt="" id="img-muneco">
+            <img src="images/muñeco.png" alt="" id="muñeco">
             <div class="mensaje-encriptado" id="mensaje-encriptado">
                 <h2 id="titulo-mensaje">Ningún mensaje fue<br> encontrado</h2>
                 <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
@@ -47,10 +46,6 @@
         </div>
     </div>
 
-
-
-
-    <script src="app.js"></script>
 </body>
-
+ <script src="app.js"></script>
 </html>
