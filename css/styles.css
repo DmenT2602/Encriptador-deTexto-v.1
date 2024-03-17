@@ -207,59 +207,21 @@ header{
   /*height: ; 50%*/
   /*top: 15%;*/
 }
-  /*           Comienzo de Footer            */
-
-footer{
-	background-color: #b9f9fc44;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	text-align: left;
-	padding:45px 40px;
-  
+.copiar {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  color: #0A3871;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #0A3871;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  right: 4px;
 }
-
-
-footer .footer-left p{
-	color:  #8f9296;
-  font-size: 14px;
-	margin: 0;
-  float:right;
-}
-
-/* Footer links */
-
-footer p.footer-links{
-	font-size:18px;
-	font-weight: bold;
-	color:  #ffffff;
-	margin: 0 0 10px;
-	padding: 0;
-}
-
-footer p.footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
-
-footer .footer-right{
-	float: left;  
-}
-
-footer .footer-right a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	background-color:  #33383b;
-	border-radius: 2px;
-
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-	margin-left: 3px;
-}
-
 
 /* Responsive design */
 /*
